@@ -6,6 +6,7 @@ namespace DesafioPOO.Models
         public string modelo { get; set; }
         public string imei { get; set; }
         public int memoria { get; set; }
+        
         public Nokia(string numero, string modelo, string imei, int memoria) : base(numero, modelo, imei, memoria){
             this.modelo = modelo;
             this.imei = imei;
